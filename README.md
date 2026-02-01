@@ -6,7 +6,7 @@ The project demonstrates core backend and frontend concepts such as authenticati
 
 ---
 
-## 🚀 Features
+## Features
 
 - User registration and authentication
 - Video upload and deletion
@@ -21,7 +21,7 @@ The project demonstrates core backend and frontend concepts such as authenticati
 
 ---
 
-## 🧑‍💻 Tech Stack
+## Tech Stack
 
 ### Backend
 - Python
@@ -41,8 +41,8 @@ The project demonstrates core backend and frontend concepts such as authenticati
 
 ---
 
-## 📁 Project Structure (Simplified)
-
+## Project Structure (Simplified)
+```bash
 fleekz/
 ├── account/          # User registration and authentication
 ├── videos/           # Video models, views, and logic
@@ -50,11 +50,11 @@ fleekz/
 ├── templates/        # HTML templates
 ├── manage.py
 └── requirements.txt
-
+```
 
 ---
 
-## 🔐 Authentication
+## Authentication
 
 - User registration using a custom signup form
 - Automatic login after successful registration
@@ -65,7 +65,7 @@ fleekz/
 
 ---
 
-## 🎥 Video System
+## Video System
 
 - Videos are uploaded and stored via **ImageKit**
 - Multiple video URLs are generated:
@@ -79,7 +79,7 @@ fleekz/
 
 ---
 
-## 👍 Likes & Dislikes
+## Likes & Dislikes
 
 - Users can like or dislike a video
 - Only one reaction per user per video
@@ -88,47 +88,47 @@ fleekz/
 
 ---
 
-## 📺 Channels
+## Channels
 
 - Each user has a channel page
 - Channel pages display all videos uploaded by the user
 
 ---
 
-## 🛠 Installation & Setup
-
-1️⃣ Clone the repository
+## Installation & Setup
 ```bash
+1️. Clone the repository
+
 git clone <your-repo-url>
 cd fleekz
 
-2️⃣ Create and activate virtual environment
+2️. Create and activate virtual environment
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
 
-3️⃣ Install dependencies
+3️. Install dependencies
 pip install -r requirements.txt
 
-4️⃣ Environment variables
+4️. Environment variables
 Create a .env file and add your ImageKit credentials:
 IMAGEKIT_PUBLIC_KEY=your_public_key
 IMAGEKIT_PRIVATE_KEY=your_private_key
 IMAGEKIT_URL_ENDPOINT=your_url_endpoint
 
-5️⃣ Run migrations
+5️. Run migrations
 python manage.py migrate
 
-6️⃣ Create superuser (optional)
+6️. Create superuser (optional)
 python manage.py createsuperuser
 
-7️⃣ Run the server
+7️. Run the server
 python manage.py runserver
 
 Open:
 http://127.0.0.1:8000/
+```
 
-
-📌 Project Purpose
+# Project Purpose
 
 This project was developed as a learning and demonstration project to showcase:
 	•	Django backend development
@@ -139,6 +139,6 @@ This project was developed as a learning and demonstration project to showcase:
 
 
 
-📜 License
+# License
 
 This project is intended for educational purposes.
